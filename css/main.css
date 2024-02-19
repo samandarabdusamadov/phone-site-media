@@ -1,4 +1,5 @@
 @import url(./fonts.css);
+
 :root {
     --white: #FFF;
     --blue: #00252E;
@@ -27,30 +28,32 @@ ul {
 
 body {
     background-color: var(--color);
+
 }
 
 /*site-blok card*/
 
-
-
 .container {
-    max-width: 1280px;
+    /*max-width: 1280px;
     width: 100%;
     margin: auto;
-    margin-top: 83px;
-
+    margin-top: 100px;*/
+    width: 1271px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 70px;
+    margin: auto;
 }
 
 .site__bloks {
     display: flex;
-    column-gap: 100px;
-
-
+    column-gap: 85px;
 }
 
 .main {
     display: flex;
     position: relative;
+    margin: auto;
 }
 
 .header {
@@ -248,13 +251,13 @@ body {
     display: flex;
     justify-content: center;
     font-family: var(--Poppins);
-   
+
 }
 
 .site-botton:active {
-   background-color: var(--pushti);
-   color: var(--pushti);
-   cursor: pointer;
+    background-color: var(--pushti);
+    color: var(--pushti);
+    cursor: pointer;
 }
 
 .container-footer {
@@ -263,9 +266,9 @@ body {
     gap: 16px;
     padding: 0 0 40px 0;
     right: 200px;
-  }
-  
-  .icon {
+}
+
+.icon {
     display: grid;
     place-content: center;
     border-radius: 50%;
@@ -274,12 +277,12 @@ body {
     border: 1px var(--white) solid;
     color: var(--white);
     transition: .5s;
-  }
-  
-  .icon:hover {
+}
+
+.icon:hover {
     border: 1px var(--pushti) solid;
     color: var(--pushti);
-  }
-  
+}
+
 
 /*site text*/
