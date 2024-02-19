@@ -53,11 +53,18 @@ body {
     position: relative;
 }
 
-.header {}
+.header {
+    position: absolute;
+    z-index: 1;
+    transform: translateY(-30px)translateX(-30px);
+    margin-bottom: 15px;
+}
 
 .header-logo {}
 
-.site__blok {}
+.site__blok {
+    margin-top: 115px;
+}
 
 .site-top__header {
 
@@ -154,7 +161,7 @@ body {
 /*site-blok phone*/
 .site-blok__phone {
     position: absolute;
-    transform: translateX(480px)translateY(120px);
+    transform: translateX(476px)translateY(230px);
 
 
 
@@ -198,6 +205,7 @@ body {
 
 /*site text*/
 .site-cards__text {
+    margin-top: 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
