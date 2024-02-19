@@ -1,0 +1,78 @@
+@media (max-width:575.99px) {
+    .header img {
+        width: 120px;
+        height: 19px;
+    }
+    .main {
+        flex-wrap: wrap;
+        column-gap: 97px;
+        margin-bottom: 68px;
+      }
+      .card {
+        gap: 4px;
+        width: 279px;
+        height: 174px;
+      }
+      .card-header {
+        width: 279px;
+        height: 18px;
+      }
+      .cards-nav {
+        width: 58px;
+        height: 6px;
+      }
+      .nav-series {
+        width: 9px;
+        height: 5px;
+      }
+      .cards-container {
+        padding-top: 40px;
+        padding-left: 20px;
+        padding-bottom: 27px;
+        padding-right: 39px;
+        row-gap: 11px;
+      }
+      .card-round__y{
+        width: 31px;
+        height: 31px;
+      }
+      .card-round__b{
+        width: 31px;
+        height: 21px;
+      }
+      .card-round__p{
+        width: 31px;
+        height: 31px;
+      }
+      .sireies {
+        padding-left: 14px;
+        row-gap: 2.5px;
+        padding-top: 4px;
+      }
+      .content-bold {
+        width: 45px;
+        height: 2.5px;
+      }
+      .content-long {
+        width: 120px;
+        height: 2.5px;
+      }
+      .content-average {
+        width: 140px;
+        height: 2.5px;
+      }
+      .content-short {
+        width: 112px;
+        height: 2.5px;
+        border-radius: 2.055px;
+        background: #E1E8EE;
+      }
+      .card-circle {
+        width: 52px;
+        height: 8px;
+      }
+
+      
+}
+
+@media (max-width:356.99px) {}
